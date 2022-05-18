@@ -1,10 +1,7 @@
 import React, {FC} from 'react'
+import {IReactChildren} from '../../types/type';
 
-interface IGetDataLayout {
-	children: React.ReactChild | React.ReactNode
-}
-
-const GetDataLayout : FC<IGetDataLayout> = ({children}) => {
+const GetDataLayout : FC<IReactChildren> = ({children}) => {
 
 	// get data here
 
