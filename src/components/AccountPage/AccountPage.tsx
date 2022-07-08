@@ -1,9 +1,11 @@
-import React, {FC} from 'react';
+import React, { FC } from 'react';
 
-const AccountPage : FC = () => {
+const AccountPage: FC = () => {
 	return (
-		<>AccountPage</>
-	)
-}
+		<>
+			AccountPage
+		</>
+	);
+};
 
 export default React.memo(AccountPage);
